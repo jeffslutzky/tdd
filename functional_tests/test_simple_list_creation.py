@@ -62,6 +62,5 @@ class NewVisitorTest(FunctionalTest):
         self.assertIn('Buy milk', page_text)
 
         # They both go back to sleep
-        self.fail('Finish the test!')
 
         unittest.main(warnings='ignore')
