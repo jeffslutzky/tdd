@@ -121,6 +121,7 @@ class ListViewTest(TestCase):
         self.assertContains(response, 'name="text"')
 
 class NewListTest(TestCase):
+
     def test_saving_a_POST_request(self):
         self.client.post(
             '/lists/new',
